@@ -1,7 +1,7 @@
 {
   "config": {
-    "configFile": "C:\\Users\\cozma\\PlayWright\\Project\\playwright.config.js",
-    "rootDir": "C:/Users/cozma/PlayWright/Project/tests",
+    "configFile": "C:\\Users\\cozma\\Git\\Playwright_with_Git\\PlaywrightWithGit\\playwright.config.js",
+    "rootDir": "C:/Users/cozma/Git/Playwright_with_Git/PlaywrightWithGit/tests",
     "forbidOnly": false,
     "fullyParallel": false,
     "globalSetup": null,
@@ -24,7 +24,7 @@
         null
       ],
       [
-        "C:\\Users\\cozma\\PlayWright\\Project\\node_modules\\allure-playwright\\dist\\index.js",
+        "C:\\Users\\cozma\\Git\\Playwright_with_Git\\PlaywrightWithGit\\node_modules\\allure-playwright\\dist\\index.js",
         null
       ],
       [
@@ -41,12 +41,12 @@
     "quiet": false,
     "projects": [
       {
-        "outputDir": "C:/Users/cozma/PlayWright/Project/test-results",
+        "outputDir": "C:/Users/cozma/Git/Playwright_with_Git/PlaywrightWithGit/test-results",
         "repeatEach": 1,
         "retries": 1,
         "id": "chromium",
         "name": "chromium",
-        "testDir": "C:/Users/cozma/PlayWright/Project/tests",
+        "testDir": "C:/Users/cozma/Git/Playwright_with_Git/PlaywrightWithGit/tests",
         "testIgnore": [],
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
@@ -54,12 +54,12 @@
         "timeout": 30000
       },
       {
-        "outputDir": "C:/Users/cozma/PlayWright/Project/test-results",
+        "outputDir": "C:/Users/cozma/Git/Playwright_with_Git/PlaywrightWithGit/test-results",
         "repeatEach": 1,
         "retries": 1,
         "id": "firefox",
         "name": "firefox",
-        "testDir": "C:/Users/cozma/PlayWright/Project/tests",
+        "testDir": "C:/Users/cozma/Git/Playwright_with_Git/PlaywrightWithGit/tests",
         "testIgnore": [],
         "testMatch": [
           "**/*.@(spec|test).?(c|m)[jt]s?(x)"
@@ -69,7 +69,7 @@
     ],
     "shard": null,
     "updateSnapshots": "missing",
-    "version": "1.42.1",
+    "version": "1.43.1",
     "workers": 10,
     "webServer": null
   },
@@ -95,17 +95,21 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 8969,
+                  "duration": 10688,
                   "errors": [],
                   "stdout": [],
-                  "stderr": [],
+                  "stderr": [
+                    {
+                      "text": "Soft assertion failed: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m200\u001b[39m\nReceived: \u001b[31m401\u001b[39m\n"
+                    }
+                  ],
                   "retry": 0,
-                  "startTime": "2024-04-23T08:20:54.833Z",
+                  "startTime": "2024-04-29T12:16:34.175Z",
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "C:\\Users\\cozma\\PlayWright\\Project\\test-results\\apiTest-API-POST-Request-chromium\\test-finished-1.png"
+                      "path": "C:\\Users\\cozma\\Git\\Playwright_with_Git\\PlaywrightWithGit\\test-results\\apiTest-API-POST-Request-chromium\\test-finished-1.png"
                     }
                   ]
                 }
@@ -123,8 +127,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-04-23T08:20:54.367Z",
-    "duration": 9998.048,
+    "startTime": "2024-04-29T12:16:33.479Z",
+    "duration": 12234.836,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,
