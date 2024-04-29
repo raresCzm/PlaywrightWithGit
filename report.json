@@ -1,0 +1,133 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\cozma\\PlayWright\\Project\\playwright.config.js",
+    "rootDir": "C:/Users/cozma/PlayWright/Project/tests",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "list",
+        null
+      ],
+      [
+        "C:\\Users\\cozma\\PlayWright\\Project\\node_modules\\allure-playwright\\dist\\index.js",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "report.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/cozma/PlayWright/Project/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/cozma/PlayWright/Project/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/cozma/PlayWright/Project/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "C:/Users/cozma/PlayWright/Project/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.42.1",
+    "workers": 10,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "apiTest.spec.js",
+      "file": "apiTest.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "API POST Request",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 8969,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-04-23T08:20:54.833Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\cozma\\PlayWright\\Project\\test-results\\apiTest-API-POST-Request-chromium\\test-finished-1.png"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "74eb362fc69066390529-4886d737795fc5d87a7c",
+          "file": "apiTest.spec.js",
+          "line": 22,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2024-04-23T08:20:54.367Z",
+    "duration": 9998.048,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
