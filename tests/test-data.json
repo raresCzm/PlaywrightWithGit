@@ -1,0 +1,28 @@
+{
+    "users": [
+        {
+            "username": "standard_user",
+            "password": "secret_",
+            "expectedText": "Epic sadface: Username and password do not match any user in this service",
+            "testType": "invalid"
+        },
+        {
+            "username": "",
+            "password": "secret_sauce",
+            "expectedText": "Epic sadface: Username is required",
+            "testType": "invalid"
+        },
+        {
+            "username": "standard_user",
+            "password": "",
+            "expectedText": "Epic sadface: Password is required",
+            "testType": "invalid"
+        },
+        {
+            "username": "standard_user",
+            "password": "secret_sauce",
+            "expectedText": "",
+            "testType": "valid"
+        }
+    ]
+}

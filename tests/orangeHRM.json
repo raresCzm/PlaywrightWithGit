@@ -1,0 +1,24 @@
+{
+    "admin": [
+        {
+            "username": "Admin",
+            "password": "admin123"
+        }
+    ],
+    "users": [
+        {
+            "index" : "1",
+            "firstName": "ionut",
+            "lastName": "cozma",
+            "username": "cozmaUsername",
+            "password": "password1"
+        },
+        {
+            "index" : "2",
+            "firstName": "taican",
+            "lastName": "neacsone",
+            "username": "neacsonetaican",
+            "password": "password123"
+        }
+    ]
+}

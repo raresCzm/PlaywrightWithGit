@@ -1,0 +1,14 @@
+{
+    "url": "https://opensource-demo.orangehrmlive.com/web/index.php/api/v2/pim/employees",
+    "data": {
+        "firstName": "petru",
+        "middleName": "",
+        "lastName": "rares",
+        "empPicture": null,
+        "employeeId": "987655"
+    },
+    "headers": {
+        "Cookie": "orangehrm=f338d643f7b1878aa909b1075b334702"
+        
+    }
+}
